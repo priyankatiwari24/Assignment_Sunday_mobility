@@ -15,22 +15,18 @@
   <form action="/submit" class="mt-3" method="POST">
     <div class="form-group" >
         <label for="name">Name</label>
-        <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+        <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name" required>
       </div>
     <div class="form-group">
       <label for="email">Email</label>
-      <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
+      <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email" required> 
     </div>
     <div class="form-group">
       <label for="salary">Salary</label>
-      <input type="number" class="form-control" id="salary" placeholder="Enter Name" name="salary">
+      <input type="number" class="form-control" id="salary" placeholder="Enter Name" name="salary" required>
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
     <input type="button" class="btn-primary btn" onclick="location.href='/search';" value="View Employee">
-
-
-    
-
   </form>
 </div>
 

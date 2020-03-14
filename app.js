@@ -49,7 +49,7 @@ app.get('/search', (req, res) => {
 
     if (!req.query.salary && req.query.filter) {
         if (req.query.filter != 'all') {
-            res.render("search", { data: "", error: "Please defined Salary!" });
+            res.render("search", { data: "", error: "Please Enter Salary!" });
         }
     }
     q = 'SELECT * FROM user order by id desc';
