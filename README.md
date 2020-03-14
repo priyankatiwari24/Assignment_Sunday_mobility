@@ -8,6 +8,7 @@
 ```create database employee;```
 
 ## Step 3: MySQL DB Import
+Exit from Mysql CLI & excute below command  
 ```sudo mysql -h localhost -u root -p employee < employee.sql```
 
 ## Step 4: Change DB configs
