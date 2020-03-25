@@ -244,4 +244,3 @@ app.put('/employees', function (req, res) {
         res.end(`Total affected rows :- ${result}`);
     });
 });
-``
